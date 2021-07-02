@@ -1,0 +1,27 @@
+{
+  "name": "npm-color-utils",
+  "version": "0.0.1",
+  "description": "Color utils have cool color functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morvicek/npm-color-utils.git"
+  },
+  "keywords": [
+    "color",
+    "utils",
+    "console",
+    "colored",
+    "hex",
+    "rgb"
+  ],
+  "author": "Morvicek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Morvicek/npm-color-utils/issues"
+  },
+  "homepage": "https://github.com/Morvicek/npm-color-utils#readme"
+}
