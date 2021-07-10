@@ -1,6 +1,6 @@
 {
   "name": "npm-color-utils",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "Color utils have cool color functions",
   "main": "src/index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Morvicek/npm-color-utils/issues"
   },
-  "homepage": "https://github.com/Morvicek/npm-color-utils#readme"
+  "homepage": "https://github.com/Morvicek/npm-color-utils#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }

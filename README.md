@@ -1,16 +1,19 @@
 # npm-color-utils
 Color utils have cool color functions
 
+- SUPPORT SERVER: https://discord.gg/xCvCHUU9ut (Discord)
+
+
 - Import
 ```js
-const {Color, GetHex, GetRgb, SColor} = require("npm-color-utils");
+const {Color, GetHex, GetRgb, SColor, Colors} = require("npm-color-utils");
 //OR
 const Colors = require("npm-color-utils");
 ```
 
 - Example
 ```js
-const {Color, GetHex, GetRgb, SColor} = require("npm-color-utils");
+const {Color, GetHex, GetRgb, SColor, Colors} = require("npm-color-utils");
 
 //Colorify 
 console.log(new Color("&c&qHello World!").getText())
@@ -25,6 +28,12 @@ console.log(GetHex(25,25,25))
 
 //RGB
 console.log(GetRgb("#HEX"))//Returns Json if you want text: GetRgb("#HEX", true)
+//Color
+console.log(new Colors().get("Red"))//returns hex, Colors u can use is red green blue more soon
+
+
+
+
 
 //OR 
 const Colors = require("npm-color-utils");

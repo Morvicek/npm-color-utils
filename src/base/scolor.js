@@ -1,4 +1,4 @@
-const replacer = require("./replacer");
+const replacer = require("../utils/replacer");
 /**
  * The GetRgb class
  */
